@@ -7,12 +7,10 @@
 <img src="https://img.shields.io/github/issues/Alerk09/SipPy?style=for-the-badge" />
 </div>
 
-<div align = left>
 <br>
- 
 SipPy is a Python-based application that reminds you to drink water.
-<br>
-<br>
+</br>
+
 # Features
 - Customizable and simple to use
 - Randomized messages and titles (also customizable)
@@ -23,9 +21,9 @@ SipPy is a Python-based application that reminds you to drink water.
 2. Run `pip install -r requirements.txt` in the repo folder
 3. Customize the values in sip.py
 4. Run the app using `python3 sip.py`
+
 > [!WARNING]
 > Do NOT use Ctrl + C to close the app as it will fail to do so, close the terminal it's running on or use the tray instead
-
 <br>
 Done! Now add your app to start-up: <br>
 - Windows: Make a VBS script that launches the .py with no window <br>
