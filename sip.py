@@ -12,7 +12,7 @@ user = getpass.getuser()
 # Customize to your liking.
 titles = ["Time to Hydrate!", "H2O Alert!", "NO WATER?", "Hydration Break", "Water Time!", "Liquid Recharge", f"{user}! Stay hydrated...", "Fuel up!", "Aqua Break!"]
 messages = ["Drink water to stay healthy.", "Your body says it’s thirsty.. drink some water!", "I know you are thirsty, take a sip!", "Time to give your cells a drink.", "Fuel up with a refreshing sip."]
-delay = 10
+delay = 745
 display_time = 5
 
 # Detects OS and uses the correct icon image format.
