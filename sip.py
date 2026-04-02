@@ -12,7 +12,7 @@ user = getpass.getuser()
 # Customize to your liking.
 titles = ["Time to Hydrate!", "H2O Alert!", "NO WATER?", "Hydration Break", "Water Time!", "Liquid Recharge", f"{user}! Stay hydrated...", "Fuel up!", "Aqua Break!"]
 messages = ["Drink water to stay healthy.", "Your body says it’s thirsty.. drink some water!", "I know you are thirsty, take a sip!", "Time to give your cells a drink.", "Fuel up with a refreshing sip."]
-delay = 745
+delay = 750
 display_time = 5
 
 # Detects OS and uses the correct icon image format.
@@ -31,6 +31,7 @@ def hydrate():
            ranmsg = random.choice(messages)
            notification.notify(title=rantl, message=ranmsg, timeout=display_time, app_name="SipPy", app_icon=iconpath)
            time.sleep(delay)
+         else: time.sleep(0.5) 
 
 # Makes a tray for easy access.
 paused = False
