@@ -33,5 +33,5 @@ Done! Now add your app to start-up: <br>
 SipPy uses:
 - [plyer](https://github.com/kivy/plyer) - notifications  
 - [pystray](https://github.com/moses-palmer/pystray) - system tray
-- [Pillow](https://python-pillow.org/) - image handling
+- [Pillow](https://github.com/python-pillow/Pillow) - image handling
 </div>
